@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PotroPickup</string>
+    <string name="nombre">Nombre:</string>
+    <string name="correo">Correo:</string>
+    <string name="password">Contraseña:</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="registrar">Registrarse</string>
+    <string name="ingresarU"><u>Ingresar</u></string>
+    <string name="registrarU"><u>Registrarse</u></string>
+    <string name="ordenar">Ordenar</string>
+    <string name="carrito">Carrito</string>
+    <string name="bienvenida">¡Bienvenido!</string>
+    <string name="cuenta">Cuenta</string>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <EditText
+        style="@style/TextItson"
+        android:id="@+id/correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Richard_1998_09@hotmail.com"
+        android:hint="@string/correo" />
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/TextItson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/correo"
+        android:layout_marginTop="16dp"
+        android:hint="@string/password"
+        android:text="Ricardos18"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_ingresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/ingresar"
+        android:theme="@style/ButtonItson" />
+
+    <TextView
+        android:id="@+id/TV_registrarse"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/btn_ingresar"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="130dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/registrarU">
+    </TextView>
+
+</RelativeLayout>

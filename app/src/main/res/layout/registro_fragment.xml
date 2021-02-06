@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/nombre"
+        style="@style/TextItson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/nombre" />
+
+    <EditText
+        android:id="@+id/correo"
+        style="@style/TextItson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:layout_marginTop="16dp"
+        android:hint="@string/correo"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/TextItson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/correo"
+        android:layout_marginTop="16dp"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_registrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/registrar"
+        android:theme="@style/ButtonItson" />
+
+    <TextView
+        android:id="@+id/TV_ingresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_registrarse"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/ingresarU"
+        android:textColor="@color/white">
+
+    </TextView>
+
+</RelativeLayout>

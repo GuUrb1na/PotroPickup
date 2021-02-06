@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/ITSON_azul"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="8dp"
+            android:layout_height="150dp"
+            android:layout_margin="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/IW_comida">
+
+                </ImageView>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            app:cardBackgroundColor="@color/ITSON_gris"
+            app:cardCornerRadius="8dp"
+            android:layout_margin="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp">
+
+                <TextView
+                    android:id="@+id/TV_nombrecomida"
+                    android:layout_width="294dp"
+                    android:layout_height="49dp"
+                    android:padding="2dp"
+                    android:text="Prueba"
+                    android:textSize="25dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TV_preciocomida"
+                    android:layout_width="173dp"
+                    android:layout_height="43dp"
+                    android:layout_alignParentBottom="true"
+                    android:padding="2dp"
+                    android:text="Prueba"
+                    android:textSize="17dp">
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/btn_añadir"
+                    android:layout_width="100dp"
+                    android:layout_height="43dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="#FFFFFF"
+                    android:padding="2dp"
+                    android:text="@string/ordenar">
+                </Button>
+
+                <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                    android:id="@+id/ENB_cantidad"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="120dp"
+                    app:backGroundColor="@color/ITSON_azul">
+
+                </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            app:cardBackgroundColor="@color/ITSON_gris"
+            android:layout_height="110dp"
+            app:cardCornerRadius="8dp"
+            android:layout_margin="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp">
+
+                <TextView
+                    android:text="Prueba"
+                    android:textSize="20dp"
+                    android:id="@+id/TV_descripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="4dp">
+
+                </TextView>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

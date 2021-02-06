@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonItson" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/ITSON_gris</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextItson" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:ems">15</item>
+    </style>
+</resources>
